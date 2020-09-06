@@ -1,0 +1,27 @@
+.box {
+  overflow: hidden;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+.col {
+  width: 15vw;
+  min-width: 15vw;
+  overflow: auto;
+  padding: 5% 1%;
+}
+
+.col + .col {
+  border-left: 1px solid black;
+}
+
+.image {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  margin: 20px 0;
+}

@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid + .grid {
+  margin-top: 200px;
+}
+
+/* .col + .col {
+  border-left: 1px solid black;
+} */
+
+.col-1 {
+  width: calc(1 / 5 * 100%);
+}
+
+.col-2 {
+  width: calc(2 / 5 * 100%);
+}
+
+.col-3 {
+  width: calc(3 / 5 * 100%);
+}
+
+.col-4 {
+  width: calc(4 / 5 * 100%);
+}
+
+.col-5 {
+  width: calc(5 / 5 * 100%);
+}
+
+.image {
+  width: 100%;
+  padding: 0 calc(85 / 575 * 100%);
+  object-fit: contain;
+  object-position: center;
+}

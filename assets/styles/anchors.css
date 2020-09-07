@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+div + div {
+  margin-top: 30px;
+}
+
+.spacer {
+  height: 200vh;
+}
+
+#hey {
+  height: 100vh;
+  border: 1px solid red;
+}
+
+/* a,
+a:visited {
+  color: inherit;
+} */

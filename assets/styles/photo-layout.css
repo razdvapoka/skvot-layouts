@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: calc(10 / 1440 * 100vw);
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
 }
 
 .grid + .grid {
-  margin-top: 200px;
+  margin-top: 20rem;
 }
 
 /* .col + .col {
